@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>أون المحترف | الاستقدام والمقاولات</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b0c2a;
+      color: #fff;
+    }
+
+    header {
+      position: fixed;
+      width: 100%;
+      background-color: rgba(11, 12, 42, 0.9);
+      padding: 10px 20px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #d4af37;
+    }
+
+    header h1 {
+      color: #d4af37;
+      font-size: 24px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 100px 20px 60px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(11, 12, 42, 0.8), rgba(11, 12, 42, 0.9)),
+        url('https://images.unsplash.com/photo-1581093588401-76626b600c5f?fit=crop&w=1500&q=80') center/cover;
+      color: white;
+      text-align: center;
+      padding: 160px 20px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      color: #d4af37;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    .cta-button {
+      background-color: #d4af37;
+      color: #0b0c2a;
+      padding: 12px 24px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      margin-top: 30px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .services, .about, .portfolio, .contact {
+      background-color: #13143a;
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #d4af37;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .portfolio-images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 15px;
+    }
+
+    .portfolio-images img {
+      width: 100%;
+      border-radius: 8px;
+      border: 2px solid #d4af37;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #aaa;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>أون المحترف</h1>
+  <nav>
+    <a href="#home">الرئيسية</a>
+    <a href="#about">من نحن</a>
+    <a href="#services">الخدمات</a>
+    <a href="#portfolio">المشاريع</a>
+    <a href="#contact">تواصل</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h2>نقود أعمالك بثقة</h2>
+  <p>استقدام العمالة المهنية | المقاولات والبنية التحتية | تطوير عقاري</p>
+  <a href="https://wa.me/966551377407" class="cta-button" target="_blank">تواصل عبر واتساب</a>
+</section>
+
+<section class="about" id="about">
+  <h3 class="section-title">من نحن</h3>
+  <p>
+    مؤسسة سعودية مرخصة برخصة "فال"، نعمل باحتراف في:
+    <br>✅ الاستقدام الدولي للعمالة المهنية والفنية
+    <br>✅ تنفيذ مشاريع البنية التحتية والمقاولات
+    <br>✅ تطوير وتسويق عقارات
+    <br><br>
+    نمتلك مكتبًا خارجيًا معتمدًا في <strong>دلهي – الهند</strong> لتوفير الكفاءات المناسبة بأعلى جودة.
+  </p>
+</section>
+
+<section class="services" id="services">
+  <h3 class="section-title">خدماتنا</h3>
+  <ul>
+    <li>🔹 استقدام عمالة مهنية من الهند (فنيين، سائقين، مشرفين...)</li>
+    <li>🔹 تنفيذ أعمال المقاولات العامة</li>
+    <li>🔹 أعمال البنية التحتية والإنشائية</li>
+    <li>🔹 تطوير وتسويق العقارات</li>
+  </ul>
+</section>
+
+<section class="portfolio" id="portfolio">
+  <h3 class="section-title">بعض أعمالنا</h3>
+  <div class="portfolio-images">
+    <img src="https://images.unsplash.com/photo-1596993121626-a5f46c9b95eb?fit=crop&w=700&q=80" alt="مشروع 1">
+    <img src="https://images.unsplash.com/photo-1581091215367-cb8f58b4352b?fit=crop&w=700&q=80" alt="مشروع 2">
+    <img src="https://images.unsplash.com/photo-1581092334499-0e4c7c4a2682?fit=crop&w=700&q=80" alt="مشروع 3">
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h3 class="section-title">تواصل معنا</h3>
+  <p>نسعد بخدمتكم والرد على استفساراتكم.</p>
+  <p><a href="https://wa.me/966551377407" class="cta-button" target="_blank">تواصل عبر واتساب</a></p>
+</section>
+
+<footer>
+  &copy; 2025 أون المحترف. جميع الحقوق محفوظة.
+</footer>
+
+</body>
+</html>
